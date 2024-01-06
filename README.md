@@ -25,11 +25,22 @@ Gastrointestinal polyps pose a significant health risk, and accurate segmentatio
 
 The evaluation metrics for the segmentation results obtained from the experiments conducted on the Kvasir-SEG dataset are as follows:
 
-- **Mean Intersection over Union (IoU):** `mean_IoU`
-- **Mean Dice Coefficient:** `mean_dice_coefficient`
-- **Mean Pixel Accuracy:** `mean_pixel_accuracy`
-- **Mean Modified Hausdorff Distance:** `mean_modified_hausdorff_distance`
-- **Mean Surface Dice Overlap:** `mean_surface_dice_overlap`
+1. **Mean Intersection over Union (IoU):**
+   - This metric measures the ratio of the intersection to the union of the predicted and ground truth masks.
+
+2. **Mean Dice Coefficient:** 
+   - The Dice coefficient calculates the similarity between two samples and is used here to assess the segmentation accuracy.
+
+3. **Mean Pixel Accuracy:** 
+   - Pixel accuracy indicates the percentage of correctly predicted pixels compared to the total number of pixels.
+
+4. **Mean Modified Hausdorff Distance:** 
+   - Modified Hausdorff distance evaluates the dissimilarity between two point sets and is applied here to quantify segmentation performance.
+
+5. **Mean Surface Dice Overlap:** 
+   - Surface Dice overlap measures the agreement between predicted and ground truth surfaces, providing insight into the quality of surface segmentation.
+
+These metrics collectively assess various aspects of the segmentation quality and accuracy, providing a comprehensive evaluation of the UNet variants' performance on the Kvasir-SEG dataset.
 
 ### Usage
 
