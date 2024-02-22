@@ -1,4 +1,4 @@
-# Comparative Analysis of Variants of UNet Architectures for Gastrointestinal Polyp Segmentation
+# GastroSegNet: A Comparative Study of UNet Variants for Accurate Gastrointestinal Polyp Segmentation
 
 This project focuses on comparing different variants of the UNet architecture for segmenting gastrointestinal polyps. The project utilizes the [Kvasir-SEG dataset](https://huggingface.co/datasets/kowndinya23/Kvasir-SEG).
 
